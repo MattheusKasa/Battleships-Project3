@@ -28,6 +28,12 @@ def create_ships(board):
 
 
 def get_ship_location():
+    """
+    Prompt the user to enter the row and column of the battleship location.
+
+    Returns:
+        tuple: A tuple containing the row (int) and column (int) indices.
+    """
     row = input("Enter the row of the battleship: ").upper()
     while row not in "123456" or row == "":
         print('Not a valid choice, please select a valid row')
