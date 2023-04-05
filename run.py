@@ -27,11 +27,11 @@ def create_ships(board):
 
 def get_ship_location():
     row = input("Enter the row of the battleship: ").upper()
-    while row not in "123456":
+    while row not in "123456" or row == "":
         print('Not a valid choice, please select a valid row')
         row = input("Enter the row of the battleship: ").upper()
     column = input("Enter the column of the battleship: ").upper()
-    while column not in "ABCDEF":
+    while column not in "ABCDEF" or column == "":
         print('Not a valid choice, please select a valid column')
         column = input("Enter the column of the battleship: ").upper()
     return int(row) - 1, letters_to_numbers[column]
