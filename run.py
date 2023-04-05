@@ -20,6 +20,12 @@ letters_to_numbers = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, }
 
 # The computer creates 5 ships within the board
 def create_ships(board):
+    """
+    Creates 5 ships within the given board.
+
+    Args:
+        board (list): A 2D list representing the game board.
+    """
     for ship in range(5):
         ship_row, ship_column = randint(0, 5), randint(0, 5)
         while board[ship_row][ship_column] == "X":
