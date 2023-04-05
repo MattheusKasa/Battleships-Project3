@@ -47,6 +47,12 @@ def get_ship_location():
 
 # checks if it was hit or a miss
 def count_hit_ships(board):
+    """
+    Prompts the user to enter the row and column of the battleship location.
+
+    Returns:
+        tuple: A tuple containing the row (int) and column (int) indices.
+    """
     count = 0
     for row in board:
         for column in row:
