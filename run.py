@@ -8,6 +8,12 @@ USER_BOARD = [[" "] * 6 for i in range(6)]
 
 
 def print_board(board):
+    """
+    Prints the given game board in a human-readable format.
+
+    Args:
+        board (list): A 2D list representing the game board.
+    """
     print("  A B C D E F  ")
     row_number = 1
     for row in board:
