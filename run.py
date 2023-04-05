@@ -1,3 +1,4 @@
+"""This module implements a simple battleship game."""
 from random import randint
 
 # Main board for displaying ships
@@ -45,6 +46,7 @@ def count_hit_ships(board):
             if column == "X":
                 count += 1
     return count
+
 
 if __name__ == "__main__":
     create_ships(CONCEALED_BOARD)
