@@ -5,7 +5,7 @@
   
 ### Users can try to beat the computer by finding all of the computers battleships within a limited number of turns. Each battleship occupies one square on the board.
 
-The live website can be found here; [Battleships](https://battleships-project-3.herokuapp.com/)
+The live website can be found here: [Battleships](https://battleships-project-3.herokuapp.com/)
 
 ![Site on different screens](/Mockup-Battleships.jpg)
 <p>&nbsp;</p>
