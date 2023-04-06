@@ -21,6 +21,8 @@ Guesses are marked on the board with an **-** and hits are indicated by an **X**
 The player has a total of 15 turns to make guesses and try and sink all the ships.
 
 If all ships are hit within 15 turns, the player wins.
+
+If any of the ships are not hit within 15 turns, the player loses.
 <p>&nbsp;</p>
 
 ## Features
@@ -39,6 +41,7 @@ If all ships are hit within 15 turns, the player wins.
 - Input validation and error-checking
     - You cannot enter coordinates outside of the grid
     - You must enter a number or a letter, correctly.
+    - You cannot give an empty input.
     - You cannot enter the same guess twice
 
 ![image](/battleships%20error.png)
@@ -64,6 +67,21 @@ I have manually tested this project by doing the following:
 - CI Python Linter
     - No errors were returned from the CI python Linter
     ![image](/CI%20python%20linter%20no%20errors.png)
+
+<p>&nbsp;</p>
+
+## Techonologies Utilized
+---
+- Programs Used for this project
+    - Python
+    - Gitpod
+    - Heroku
+
+<p>&nbsp;</p>
+
+## Issues and Errors
+- Had an issue where the program would crash if a empty input was given. I fixed this by raising an error if a user gives an empty input, redirecting them to giving an acceptable input instead.
+
 <p>&nbsp;</p>
 
 ## Deployment
