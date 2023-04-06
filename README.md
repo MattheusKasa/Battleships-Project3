@@ -70,7 +70,7 @@ I have manually tested this project by doing the following:
 
 <p>&nbsp;</p>
 
-## Techonologies Utilized
+## Technologies Utilized
 ---
 - Programs Used for this project
     - Python
