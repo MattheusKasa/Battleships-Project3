@@ -1,11 +1,12 @@
 # BATTLESHIPS
 
-### Battleships is a python terminal game, which runs in the mock terminal on Heroku
+## Battleships is a python terminal game, which runs in the mock terminal on Heroku
 <p>&nbsp;</p>
   
 ### Users can try to beat the computer by finding all of the computers battleships within a limited number of turns. Each battleship occupies one square on the board.
+<p>&nbsp;</p>
 
-The live website can be found here: [Battleships](https://battleships-project-3.herokuapp.com/)
+## The live website can be found here: [Battleships](https://battleships-project-3.herokuapp.com/)
 
 ![Site on different screens](/Mockup-Battleships.jpg)
 <p>&nbsp;</p>
@@ -46,6 +47,8 @@ If any of the ships are not hit within 15 turns, the player loses.
     - You cannot enter the same guess twice
 
 ![image](/battleships%20error.png)
+
+<p>&nbsp;</p>
 
 ## Data Model
 ---
@@ -97,3 +100,18 @@ This project was deployed using Heroku
     - Set the buildbacks to **Python** and **NodeJS** in that order
     - Link the Heroku app to the repository
     - Click on **Deploy**
+
+<p>&nbsp;</p>
+
+## Credits
+---
+
+### [Dylan Israel - Youtube](https://www.youtube.com/watch?v=7Ki_2gr0rsE) - The video i watched for inspiration.
+
+### [Austin - Montgomery](https://bigmonty12.github.io/battleship) - Website i visited for additional inspiration.
+
+
+<p>&nbsp;</p>
+
+# Mattheus Kasa, 2023
+
