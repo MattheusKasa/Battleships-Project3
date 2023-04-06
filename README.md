@@ -68,7 +68,7 @@ I have manually tested this project by doing the following:
 - Tested in my local terminal and the Heroku terminal.
 
 ### Validator Testing
-- CI Python Linter
+- [CI Python Linter](https://pep8ci.herokuapp.com/)
     - No errors were returned from the CI python Linter
     ![image](/CI%20python%20linter%20no%20errors.png)
 
