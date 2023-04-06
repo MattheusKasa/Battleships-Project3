@@ -63,6 +63,7 @@ I have manually tested this project by doing the following:
 ### Validator Testing
 - PEP8
     - No errors were returned from PEP8online.com
+    ![image](/CI%20python%20linter%20no%20errors.png)
 <p>&nbsp;</p>
 
 ## Deployment
