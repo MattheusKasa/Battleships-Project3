@@ -23,13 +23,14 @@ The player has a total of 15 turns to make guesses and try and sink all the ship
 If all ships are hit within 15 turns, the player wins.
 
 If any of the ships are not hit within 15 turns, the player loses.
+
 <p>&nbsp;</p>
 
 ## Features
 ---
-- ### Random board generator
-    - Ships are randomly placed on the board.
-    - The player cannot see where the ships are.
+### Random board generator
+- Ships are randomly placed on the board.
+- The player cannot see where the ships are.
 
 ![image](/battleships%20image1.png)
 
@@ -80,7 +81,10 @@ I have manually tested this project by doing the following:
 <p>&nbsp;</p>
 
 ## Issues and Errors
+---
 - Had an issue where the program would crash if a empty input was given. I fixed this by raising an error if a user gives an empty input, redirecting them to giving an acceptable input instead.
+
+![image](/battleships%20no%20input.png)
 
 <p>&nbsp;</p>
 
